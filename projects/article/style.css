@@ -1,0 +1,12 @@
+body {
+    background-color: #f3ecc6;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3 {
+    font-family:'Times New Roman', Times, serif;
+}
+img {
+    width:400px
+}
+/* Images, class or ID and then ready to submit*/
