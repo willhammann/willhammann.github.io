@@ -34,13 +34,13 @@ img {
 
 .graphics img {
     max-width: 100%;
-    width: 100%; /* Default full width */
+    width: 100%; 
     height: auto;
 }
 
 @media (min-width: 992px) {
     .graphics img {
-        width: 80%; /* Shrink on larger screens */
+        width: 80%;
     }
 }
 
