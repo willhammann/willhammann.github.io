@@ -1,0 +1,88 @@
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 6em;
+}
+
+h2 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 1em;
+}
+
+h3 {
+    font-family: "Helvetica", sans-serif;
+    padding-bottom: 1em;
+}
+
+body, header {
+    font-family: "Verdana", sans-serif;
+    background-color: #0C0E0C;
+    color: #FAFCEF;
+    font-size: 14px;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding-top: 4em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.graphics img {
+    max-width: 100%;
+    width: 100%; /* Default full width */
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .graphics img {
+        width: 80%; /* Shrink on larger screens */
+    }
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+section.container {
+    width: 55%;
+    margin: 0 auto;
+    padding: 4em 0 3em 0;
+}
+
+section.graphics {
+    color: #0C0E0C;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 4em 0 4em 0;
+}
+
+
+footer {
+    font-family: "Verdana", sans-serif;
+    color: #0C0E0C;
+    background-color: white;
+    margin: 0 auto;
+    padding: 4em 0 4em 0;
+}
+
+footer p {
+    width: 55%;
+    margin: 0 auto;
+    padding: 1em 0 1em 0;
+}
+
